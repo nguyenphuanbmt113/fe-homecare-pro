@@ -1,0 +1,45 @@
+.manage-schdule-container {
+  padding: 0 20px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  .m-s-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .pick-hour {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .btn-time {
+      padding: 5px 10px;
+      background: rgb(84, 84, 84);
+      border-radius: 8px;
+      color: white;
+      border: 0;
+      cursor: pointer;
+    }
+    .btn-time-active {
+      padding: 5px 10px;
+      background: rgb(0, 85, 242);
+      border-radius: 8px;
+      color: white;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+  .btn-save {
+    padding: 5px 10px;
+    background: rgb(255, 179, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}

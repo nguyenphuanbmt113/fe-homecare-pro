@@ -1,0 +1,45 @@
+.manage-patient {
+  max-width    : 1180px;
+  padding      : 0 20px;
+  margin-left  : auto;
+  margin-right : auto;
+
+  .manage-p-title {
+    margin      : 20px 0;
+    font-size   : 15px;
+    text-align  : center;
+    font-weight : 600;
+  }
+
+  .manage-patient-table {
+    margin-top : 30px;
+  }
+
+  .no-data {
+    color      : rgb(255, 68, 11);
+    // margin: 20px;
+    text-align : center;
+  }
+
+  .btn-actions {
+    display     : flex;
+    align-items : center;
+    gap         : 15px;
+
+    .x-n {
+      padding     : 4px 8px;
+      background  : rgb(0, 110, 254);
+      color       : white;
+      font-weight : 500;
+      border      : none;
+    }
+
+    .g-h {
+      padding     : 4px 8px;
+      background  : rgb(71, 71, 71);
+      color       : white;
+      font-weight : 500;
+      border      : none;
+    }
+  }
+}

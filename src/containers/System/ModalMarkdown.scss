@@ -1,0 +1,25 @@
+.top-container {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.text-editor {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 10px;
+  overflow-y: auto;
+  outline: none;
+  padding: 10px;
+}
+.section-container.html-wrap {
+  background: white !important;
+}
+.modal {
+  height: 95vh;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+.container-info {
+  padding: 0 20px;
+}

@@ -1,0 +1,80 @@
+{
+  "menu": {
+    "admin": {
+      "manage-user": "User",
+      "manage-doctor": "Manage Doctor",
+      "manage-admin": "Manage Admin",
+      "crud": "CRUD User",
+      "crud-redux": "Manage User",
+      "manage-clinic": "Manage Clinic",
+      "clinic": "Clinic",
+      "speciality": "Speciality",
+      "manage-speciality": "Manage Speciality",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage Handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Schedule",
+      "manage-patient": "Manage Patient",
+      "schedule": "Schedule"
+    },
+    "m-s": {
+      "title": "Manage Schedule",
+      "chooseDoctor": "Choose Doctor",
+      "chooseDate": "Choose Date"
+    },
+    "manage-user": {
+      "manage-user": "Manage User",
+      "createDoctor": "Create Doctor",
+      "createMarkdown": "Create MarkDown",
+      "createUser": "Create User",
+      "email": "Email",
+      "password": "Password",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "address": "Address",
+      "role": "Role",
+      "position": "Position",
+      "gender": "Gender",
+      "image": "Image",
+      "Male": "Male",
+      "Female": "Female",
+      "other": "Other",
+      "Create-User": "Create User",
+      "Update-User": "Update User"
+    }
+  },
+  "header": {
+    "speciality": "Specialist",
+    "search-doctor": "Search Doctors By Specialty",
+    "Examination": "Examination",
+    "Support": "Support",
+    "Health-facilities": "Health Facilities",
+    "Doctor-good": "Good doctor",
+    "Choose-a-Clinic": "Choose a Clinic",
+    "Doctor": "Doctor",
+    "Fee": "Fee",
+    "General-health-check": "General Health Check",
+    "welcome": "Welcome"
+  },
+  "banner": {
+    "title1": "MEDICAL BACKGROUND",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "children1": "Specialist",
+    "children2": "From far away",
+    "children3": "Generality",
+    "children4": "Medicine",
+    "children5": "Morale",
+    "children6": "Dentistry",
+    "children7": "Surgery",
+    "children8": "Medicine",
+    "children9": "Enterprise",
+    "Popular-Specialization": "Popular Specialization",
+    "seemore": "See More",
+    "Medical-Facility": "Medical Facility",
+    "Doctor-Facility": "Doctor Facility",
+    "Handbook": "Handbook",
+    "About": "About BookingCare"
+  }
+}

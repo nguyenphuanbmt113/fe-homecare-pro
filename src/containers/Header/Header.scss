@@ -1,0 +1,70 @@
+@import "../../styles/common.scss";
+
+.header-container {
+  z-index             : 99;
+  display             : flex;
+  align-items         : center;
+  justify-content     : space-between;
+  // background-color: $colormain;
+  box-shadow          : rgba(82, 82, 82, 0.2) 0px 5px 5px 0px,
+    rgba(113, 113, 113, 0.1) 0px 2px 2px 0px,
+    rgba(106, 105, 105, 0.05) 0px 0px 0px 1px inset;
+  color    : $common-text-color;
+  height   : 60px;
+  position : relative;
+
+  .btn-logout {
+    // color: $common-text-color;
+    line-height : 40px;
+    height      : 40px;
+    padding     : 0 15px;
+
+    &:hover {
+      background-color : gray;
+      color            : white;
+    }
+
+    i {
+      font-size : $base-size + 1px;
+    }
+  }
+}
+
+.language {
+  display     : flex;
+  align-items : center;
+  gap         : 15px;
+
+  &>span {
+    cursor : pointer;
+  }
+}
+
+.header-left {
+  display     : flex;
+  align-items : center;
+  gap         : 20px;
+}
+
+.text-black {
+  color       : black;
+  font-weight : bold;
+}
+
+.img-flag {
+  width  : 40px;
+  height : 40px;
+
+  img {
+    width         : 100%;
+    height        : 100%;
+    object-fit    : cover;
+    border-radius : 100rem;
+  }
+}
+
+.navigator-menu .menu-group .menu-list .menu {
+  width : 250px;
+}
+
+.welcome {}

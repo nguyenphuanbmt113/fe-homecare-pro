@@ -1,0 +1,93 @@
+{
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "user-rd": "Quản lý User RD",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    },
+    "admin": {
+      "manage-user": "Người Dùng",
+      "manage-doctor": "Quản Lý Bác sĩ",
+      "manage-admin": "Quản Lý Admin",
+      "crud": "CRUD User",
+      "crud-redux": "Quản Lý Người Dùng ",
+      "manage-clinic": "Quản Lý Phòng Khám",
+      "clinic": "Phòng Khám",
+      "speciality": "Chuyên Khoa",
+      "manage-speciality": "Quản Lý Chuyên Khoa",
+      "handbook": "Cẩm Năng",
+      "manage-handbook": "Quản Lý Cẩm Năng"
+    },
+    "doctor": {
+      "manage-schedule": "Quản Lý Lịch Khám Bệnh",
+      "manage-patient": "Quản Lý Bệnh Nhân",
+      "schedule": "Lịch Khám Bệnh"
+    },
+    "manage-user": {
+      "manage-user": "Quản Lý Người Dùng",
+      "createUser": " Thêm Mới Người Dùng",
+      "createMarkdown": " Thêm Thông Tin Cho Bác Sĩ",
+      "createDoctor": " Thêm Mới Bác Sĩ",
+      "email": "Email",
+      "password": "Mật Khẩu",
+      "firstName": "Họ",
+      "lastName": "Tên",
+      "phone": "Số Điện Thoại",
+      "address": "Địa Chỉ",
+      "role": "Chức Vụ",
+      "position": "Vị trí",
+      "gender": "Giới Tính",
+      "image": "Hình Ảnh",
+      "Male": "Nam",
+      "Female": "Nữ",
+      "other": "Khác",
+      "Create-User": "Thêm Người Dùng",
+      "Update-User": "Cập Nhật Người Dùng"
+    },
+    "m-s": {
+      "title": "Quản Lý Kế Hoạch Khám Bệnh",
+      "chooseDoctor": "Chọn Bác Sĩ",
+      "chooseDate": "Chọn Ngày"
+    }
+  },
+  "header": {
+    "speciality": "Chuyên Khoa",
+    "search-doctor": "Tìm Kiếm Bác Sĩ Theo Chuyên Khoa",
+    "Examination": "Khám",
+    "Support": "Hổ Trợ",
+    "Health-facilities": "Cơ sở Y tế",
+    "Choose-a-Clinic": "Chọn Phòng Khám",
+    "Doctor": "Bác Sĩ",
+    "Doctor-good": "Bác Sĩ Giỏi",
+    "Fee": "Gói Khám",
+    "General-health-check": "Khám Sức Khỏe Tổng Quát",
+    "welcome": "Xin Chào, Admin!"
+  },
+  "banner": {
+    "title1": "NỀN TẢNG Y TẾ",
+    "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+    "children1": "Chuyên Khoa",
+    "children2": "Từ Xa",
+    "children3": "Tổng Quát",
+    "children4": "Y học",
+    "children5": "Tinh Thần",
+    "children6": "Nha Khoa",
+    "children7": "Phẩu Thuật",
+    "children8": "Y tế",
+    "children9": "Doanh Nghiệp",
+    "Popular-Specialization": "Chuyên Khoa Phổ Biến",
+    "seemore": "Xem Thêm",
+    "Medical-Facility": "Cơ Sở Y Tế Nổi Bật",
+    "Doctor-Facility": "Bác Sĩ Nổi Bật Tuần Qua",
+    "Handbook": "Cẩm Nang",
+    "About": "Truyền thông nói về BookingCare",
+    "About-desc": ""
+  }
+}

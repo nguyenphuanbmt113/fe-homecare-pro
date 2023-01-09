@@ -1,0 +1,30 @@
+.login-bg {
+  height: 100vh;
+  // background-color: #0093e9;
+  // background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%) ;
+  background: url("../../assets/image/flower2.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .login-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+  }
+  .txt-login {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 13px;
+  }
+  .text-forgot {
+    color: rgb(37, 158, 250);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.txt-err {
+  color: red;
+  margin-top: 10px;
+}
