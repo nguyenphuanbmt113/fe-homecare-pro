@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { getAllClinic } from "../../../services/userService";
 import "../HomePage.scss";
 import { withRouter } from "react-router";
+import { ColorRing } from "react-loader-spinner";
 let settings = {
   speed: 2000,
   autoplay: true,
@@ -47,13 +48,20 @@ class MedicalFacility extends Component {
     super(props);
     this.state = {
       listClinic: "",
+      isLoadingClinic: false,
     };
   }
   async componentDidMount() {
+    this.setState({
+      isLoadingClinic: true,
+    });
     const res = await getAllClinic();
     if (res.data.EC === 0) {
       this.setState({
         listClinic: res.data.DT || [],
+      });
+      this.setState({
+        isLoadingClinic: false,
       });
     }
   }
@@ -93,6 +101,28 @@ class MedicalFacility extends Component {
                     );
                   })}
               </Slider>
+              {this.state.isLoadingClinic === true && (
+                <div className="loading-container">
+                  <div className="loading">
+                    <ColorRing
+                      visible={true}
+                      height="50"
+                      width="50"
+                      ariaLabel="rotating-triangels-loading"
+                      wrapperStyle={{}}
+                      wrapperClass="rotating-triangels-wrapper"
+                      colors={[
+                        "#ffffff",
+                        "#ffffff",
+                        "#ffffff",
+                        "#ffffff",
+                        "#ffffff",
+                      ]}
+                    />
+                  </div>
+                  <div className="overlay"></div>
+                </div>
+              )}
             </div>
           </div>
         </div>

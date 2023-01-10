@@ -217,6 +217,17 @@
 
 .slick-container {
   margin : 0 -10px;
+
+  .loading {
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    transform : translate(-50%, -50%);
+  }
+
+  .overlay {
+    z-index : 974;
+  }
 }
 
 .slick-arrow {
