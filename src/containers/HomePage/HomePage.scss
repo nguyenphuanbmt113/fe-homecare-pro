@@ -217,7 +217,7 @@
 
 .slick-container {
   margin : 0 -10px;
-  position: relative;
+  position: relative !important;
 
   .loading {
     position  : absolute;
