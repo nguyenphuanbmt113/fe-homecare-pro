@@ -213,11 +213,11 @@
 
 .slick-slide {
   padding : 0 10px !important;
-  position: relative;
 }
 
 .slick-container {
-  margin : 0 -10px;
+  position : relative;
+  margin   : 0 -10px;
 
   .loading {
     position  : absolute;
