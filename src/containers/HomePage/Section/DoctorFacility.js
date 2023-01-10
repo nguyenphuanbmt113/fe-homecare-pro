@@ -86,14 +86,7 @@ class DoctorFacility extends Component {
                 topDoctorData.map((item, index) => {
                   let nameVi = `${item.positionData.valueVi}, ${item.firstName} ${item.lastName}`;
                   let nameEn = `${item.positionData.valueEn}, ${item.firstName} ${item.lastName}`;
-                  let imageBase64 = "";
                   let doctor_specialty = item.Doctor_Infor.SpecialtyData.name;
-                  if (item.image) {
-                    imageBase64 = new Buffer(item.image, "base64").toString(
-                      "binary"
-                    );
-                    console.log("imageBase64", imageBase64);
-                  }
                   return (
                     <div
                       className="doctor-container"
