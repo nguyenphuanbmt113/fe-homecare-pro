@@ -65,7 +65,7 @@ class DoctorFacility extends Component {
   };
   render() {
     const { topDoctorData } = this.state;
-    console.log("topDoctorData", topDoctorData);
+    console.log(">>>>>>>>>>>topDoctorData param", topDoctorData);
     return (
       <div className="section-container section-doctor">
         <div className="section-content">
@@ -92,6 +92,7 @@ class DoctorFacility extends Component {
                     imageBase64 = new Buffer(item.image, "base64").toString(
                       "binary"
                     );
+                    console.log("imageBase64", imageBase64);
                   }
                   return (
                     <div
